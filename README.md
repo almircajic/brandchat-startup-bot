@@ -11,25 +11,8 @@ In order to develop and run a Bot on Brandchat, you need these three things:
 
 
 ## Your first Brandchat Bot
-```javascript
-//Include required components
-var BrandchatManager = require("./app/brandchatManager");
-var MessageManager = require("./app/messageManager");
+To start your first bot, assuming you already completed above steps, you can download this startup template into your local working directory using
 
-//Initiate and connect to the Brandchat server
-var messageManager = new MessageManager();
-var brandchatManager = new BrandchatManager({bot_key:"bot_key", secret_key:"secret_key"});
-brandchatManager.connect(function(loginInfo){}, messageManager);
+'git clone https://github.com/almircajic/brandchat-startup-bot.git'
 
-//Welcome message from the Bot
-messageManager.welcomeMessage = function(question){
-   messageManager.sendMessage(question.id, "Hi. Im am Startup Bot");
-};
-
-//Bot correspondence flow
-messageManager.onMessage(function(message){
-   if(message.text=="hello"){
-      messageManager.sendMessage(message.questionId, "Hellow to you too");   
-   }
-});
-```
+This will create folder **brandchat-startup-bot** and inside it a few files.   
