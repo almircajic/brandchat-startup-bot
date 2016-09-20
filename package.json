@@ -4,7 +4,7 @@
   "description": "Brandchat Bot - Startup Template",
   "main": "index.js",
   "dependencies": {
-    "brandchat-bot-core": "1.0.0"
+    "brandchat-bot-core": "https://github.com/almircajic/brandchat-bot-core.git"
   },
   "devDependencies": {},
   "scripts": {
