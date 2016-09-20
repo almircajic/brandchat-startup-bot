@@ -3,7 +3,7 @@
 NOTE: This document is work in progress and not ready for usage yet. 
 This document provides instructions on how to develop your first Brandchat Bot using NodeJS.
 
-## Prerequisits
+## Requirements
 In order to develop and run a Bot on Brandchat, you need these three things: 
 -	A valid Brandchat Account (see how to [sign up for Brandchat](https://www.brandchat.co/brands)).
 -	Create a new Bot Agent (Under 'Agents' menu of your Brand Administration console) (TODO: See how to create new bot agent)
