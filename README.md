@@ -16,7 +16,7 @@ To start your first bot, assuming you already completed above steps, you can dow
 
 `git clone git://github.com/almircajic/brandchat-startup-bot.git`
 
-This will create folder **brandchat-startup-bot** and inside it a few files. Run `npm install` to get and install dependencies.
+This will create folder **brandchat-startup-bot** and inside it a few files. Go into newly created folder and run command `npm install` to get and install dependencies.
 
 #### Run First Bot 
 If dependencies are installed correctly, change bot_key and secret_key as per values provided while creating Bot Agent. Then, run `node index.js`.
