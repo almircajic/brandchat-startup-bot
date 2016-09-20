@@ -11,7 +11,7 @@ In order to develop and run a Bot on Brandchat, you need these three things:
 
 
 ## Your first Brandchat Bot
-```
+```javascript
 //Include required components
 var BrandchatManager = require("./app/brandchatManager");
 var MessageManager = require("./app/messageManager");
