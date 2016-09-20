@@ -11,7 +11,7 @@ In order to develop and run a Bot on Brandchat, you need these three things:
 
 
 ## Your first Brandchat Bot
-'''node
+```
 //Include required components
 var BrandchatManager = require("./app/brandchatManager");
 var MessageManager = require("./app/messageManager");
@@ -32,5 +32,4 @@ messageManager.onMessage(function(message){
       messageManager.sendMessage(message.questionId, "Hellow to you too");   
    }
 });
-'''
-
+```
