@@ -1,0 +1,19 @@
+{
+  "name": "brandchat-startup-bot",
+  "version": "1.0.0",
+  "description": "Brandchat Bot - Startup Template",
+  "main": "index.js",
+  "dependencies": {
+    "brandchat-bot-core": "1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brandchat",
+    "bot"
+  ],
+  "author": "Almir Cajic",
+  "license": "ISC"
+}
