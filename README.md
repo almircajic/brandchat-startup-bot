@@ -14,12 +14,12 @@ In order to develop and run a Bot on Brandchat, you require few things as per be
 #### Download Startup Template
 To start your first bot, assuming you already completed above steps, you can download this startup template into your local working directory by cloning the :
 
-'git clone git://github.com/almircajic/brandchat-startup-bot.git'
+`git clone git://github.com/almircajic/brandchat-startup-bot.git`
 
-This will create folder **brandchat-startup-bot** and inside it a few files. Run 'npm install' to get and install dependencies.
+This will create folder **brandchat-startup-bot** and inside it a few files. Run `npm install` to get and install dependencies.
 
 #### Run First Bot 
-If dependencies are installed correctly, change bot_key and secret_key as per values provided while creating Bot Agent. Then, run 'node index.js'.
+If dependencies are installed correctly, change bot_key and secret_key as per values provided while creating Bot Agent. Then, run `node index.js`.
  
 If you see something like this as the output, then you are ready to roll:
 
