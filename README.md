@@ -33,5 +33,5 @@ Hi there! Im bot and im connected.
 
 This is all you need to run your first bot. 
 
-For developing more complex Bot interactions, stay tuned for How-to (TODO: link to How to resources) documentations coming shortly.
+For developing more complex Bot interactions, stay tuned for How-to (TODO: link to How to resources) documentations coming soon.
 
