@@ -9,13 +9,13 @@ brandchatManager.connect(function(loginInfo){}, messageManager);
 
 //Welcome message from the Bot
 messageManager.welcomeMessage = function(question){
-   messageManager.sendMessage(question.id, "Hi. I'm Startup Bot");
+   messageManager.sendMessageText(question.id, "Hi. I'm Startup Bot");
 };
 
 //Bot correspondence flow
 messageManager.onMessage(function(message){
    if(message.text=="hello"){
-      messageManager.sendMessage(message.questionId, "Hello to you too");   
+      messageManager.sendMessageText(message.questionId, "Hello to you too");   
    }
 });
 
